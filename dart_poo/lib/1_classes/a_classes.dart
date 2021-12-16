@@ -6,6 +6,9 @@ void main() {
   camisetaNike.cor = "Preta";
   camisetaNike.marca = "Nike";
 
+  print(Camiseta.nome); //atributo de classe
+  print(Camiseta.recuperarNome());
+
   print("""
   Camiseta:
     Tamanho: ${camisetaNike.tamanhoo}
@@ -16,7 +19,7 @@ void main() {
 
   var camisetaAddidas = Camiseta();
   camisetaAddidas.tamanhoo = "G";
-  camisetaAddidas.cor = "Preta";
+  camisetaAddidas.cor = "Verde";
   camisetaAddidas.marca = "Addidas";
 
   print("""
