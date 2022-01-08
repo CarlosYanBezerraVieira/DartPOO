@@ -9,8 +9,7 @@ class Cliente {
     this.cpf,
     this.razaoSocial,
     this.cnpj,
-  })  : nome = nome,
-        assert(
+  }) : assert(
             (cpf != null)
                 ? nome != null && razaoSocial == null && cnpj == null
                 : true,
